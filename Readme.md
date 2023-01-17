@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Светлана Кашайкина](https://up.htmlacademy.ru/htmlcss/36/user/2103387).
-* Наставник: `Неизвестно`.
+* Наставник: [Кенан Агаев] (https://htmlacademy.ru/profile/kenakula).
 
 ---
 
