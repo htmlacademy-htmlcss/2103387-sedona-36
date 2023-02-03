@@ -44,7 +44,7 @@
        <main class="main-inner">
         <header class="inner-header">
           <h1 class="inner-header-title">Гостиницы Седоны</h1>
-          <img class="inner-header-img-blur-background" src="images/blur/filter-background.jpg" width="1200" height="412">
+          <img class="inner-header-img-blur-background" src="" width="1200" height="412">
           <ol class="breadcrumbs-list">
             <li class="breadcrumbs-item">
               <a class="breadcrumbs-link" href="index.html"><span class="visually-hidden">На главную</span></a>
@@ -62,7 +62,7 @@
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
                   <label class="control">
-                    <input class="control-input" type="checkbox" name="swimming pool" checked>Бассейн
+                    <input class="control-input" type="checkbox" name="swimming-pool" checked>Бассейн
                   </label>
                 </li>
                 <li class="catalog-filter-item">
@@ -82,17 +82,17 @@
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
                   <label class="control">
-                    <input class="control-input" type="radio" name="type hotels" value="hotel" checked>Гостиница
+                    <input class="control-input" type="radio" name="type-hotels" value="hotel" checked>Гостиница
                   </label>
                 </li>
                 <li class="catalog-filter-item">
                   <label class="control">
-                    <input class="control-input" type="radio" name="type hotels" value="motel">Мотель
+                    <input class="control-input" type="radio" name="type-hotels" value="motel">Мотель
                   </label>
                 </li>
                 <li class="catalog-filter-item">
                   <label class="control">
-                    <input class="control-input" type="radio" name="type hotels" value="apartments">Апартаменты
+                    <input class="control-input" type="radio" name="type-hotels" value="apartments">Апартаменты
                   </label>
                 </li>
               </ul>
@@ -104,11 +104,11 @@
               <div class="price-inputs">
                 <div class="price-input">
                   <label for="input-from" class="visually-hidden">от</label>
-                  <input type="number" min="0" class="price-input-field" placeholder="от" id="input-from">
+                  <input type="number" min="0" max="999999" class="price-input-field" placeholder="от" id="input-from">
                 </div>
                 <div class="price-input">
                   <label for="input-to" class="visually-hidden">до</label>
-                  <input type="number" max="9000" class="price-input-field" placeholder="до" id="input-to">
+                  <input type="number" min="0" max="999999" class="price-input-field" placeholder="до" id="input-to">
                 </div>
                </div>
                 <div class="price-slider">
