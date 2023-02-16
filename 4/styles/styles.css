@@ -14,7 +14,7 @@
  }
   
  body {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 18px;
     line-height: 21px;
     color: #000000;
@@ -49,7 +49,7 @@
  .main-index {
     text-align: center;
  }
- .hero-img-background {
+ .hero {
     color: #000000;
     background-color: #82B3D3;
     background-image: url("../images/hero/hero-background.jpg");
@@ -81,7 +81,7 @@
  }
  .advantages-item {
     width: 400px;
-    height: 384px;
+    min-height: 384px;
     color:#ffffff;
     background-color: #82B3D3;
  }
@@ -112,13 +112,13 @@
     color: #ffffff;
     background-color: #756157;
  }
- .newsletter-img-blur-background {
-    color: #000000;
+ .newsletter {
+    color: #ffffff;
     background-color: #82B3D3;
     background-image: url("../images/blur/subscribe-background.jpg");
     background-size: 100% auto;
     width: 1200px;
-    height: 414.86px;
+    min-height: 414.86px;
     background-repeat: no-repeat;
  }
  .newsletter h2 {
@@ -160,19 +160,20 @@
     color: #ffffff;
     background-color: rgb(235, 134, 116);
  }
-  .inner-header-img-blur-background {
-    color: #000000;
+  .inner-header {
+    color: #ffffff;
     background-color: #82B3D3;
     background-image: url("../images/blur/filter-background.jpg");
     background-size: 100% auto;
     width: 1200px;
-    height: 412px;
+    min-height: 412px;
     background-repeat: no-repeat;
  }
  .inner-header-title {
     font-weight: 700;
     font-size: 60px;
     line-height: 78px;
+    color: #ffffff;
     
  }
  .breadcrumbs-list {
@@ -224,7 +225,7 @@
  }
  .hotel-card {
     width: 340px;
-    height: 438px;
+    min-height: 438px;
     color: #333333;
     background-color: #E6E6E6;
     text-align: center;
@@ -276,3 +277,24 @@
     font-size: 22px;
     line-height: 26px;
  }
+ .newsletter-inner {
+   color: #000000;
+   background-color: #ffffff;
+   background-size: 100% auto;
+   width: 1200px;
+   min-height: 414.86px;
+   text-align: center;
+}
+.newsletter-inner h2 {
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 36px;
+   text-transform: uppercase;
+}
+.newsletter-inner p {
+   color: #333333;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 26px;
+   text-transform: none;
+}
